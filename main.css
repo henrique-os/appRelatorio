@@ -2,7 +2,7 @@
   --externalContentMsg: #000000;
   --internalContentMsg: #00acee;
 
-  --internalForm: #ffffff50;
+  --internalForm: #ffffffcf;
   --externalForm: #00acee;
 
   --textLight: #fff;
@@ -11,21 +11,25 @@
   --buttonDark: #352f44;
   --buttonLight: #352f44;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   background-color: var(--externalContentMsg);
 }
+
 #form-relatorio-eta {
   background-color: var(--internalForm);
   border: none;
   border-radius: 5px;
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.246);
 }
+
 .app {
   width: 100vw;
   height: 100vh;
@@ -37,6 +41,7 @@ body {
   bottom: 0;
   overflow: scroll;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -65,6 +70,7 @@ body {
   font-size: 1.1em;
   border-radius: 0 0 10px 10px;
 }
+
 .content-form {
   justify-content: center;
   margin: 0 auto;
@@ -76,6 +82,7 @@ label {
   display: block;
   margin: 5px auto;
 }
+
 button {
   width: 100%;
   background-color: var(--buttonDark);
@@ -93,15 +100,17 @@ button {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 5px 5px;
 }
+
 #btn-copy-data {
   border-radius: 15px;
   width: 40%;
 }
+
 input {
   padding: 5px;
   width: 40%;
   margin: 5px auto;
-
+  font-size: 1.1em;
   border-radius: 8px;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
