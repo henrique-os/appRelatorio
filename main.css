@@ -21,7 +21,7 @@ body {
 }
 
 .content-msg {
-  width: 30%;
+  max-width: 400px;
   padding: 5px;
   font-size: 1.1em;
   display: block;
@@ -61,5 +61,6 @@ button {
   padding: 5px;
 }
 input {
+  padding: 5px;
   width: 40%;
 }
