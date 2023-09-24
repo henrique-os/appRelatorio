@@ -18,6 +18,7 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
+  overflow: scroll;
 }
 
 .content-msg {
@@ -52,13 +53,19 @@ label {
   margin-top: 5px;
 }
 button {
+  background-color: #ffffffac;
+  color: blue;
+  font-size: 1.2em;
   display: flex;
   justify-content: center;
   padding: 5px;
   align-items: center;
   cursor: pointer;
   margin: 5px auto;
+  border: none;
+  box-shadow: 0 0 1px;
   padding: 5px;
+  border-radius: 5px;
 }
 input {
   padding: 5px;
